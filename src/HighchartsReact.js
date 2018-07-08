@@ -197,7 +197,6 @@ export class HighchartsReact extends PureComponent {
         if (dataInfo !== void 0) {
             options = transformData(dataInfo)
         }
-        console.log(options)
         _.chartIns = highcharts[constructorType](_.container, options)
     }
     componentWillUnmount = () => {
